@@ -1,0 +1,161 @@
+/* grijs  #899CA0 en donkergroen #1C2B32*/
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1C2B32;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+
+header{
+    background-image: url("/assets/images/mountains.jpg");
+    background-position-x: center;
+    background-position-y: -150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title-and-check{
+max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.free{
+    box-sizing: border-box;
+    border: 1px solid #1C2B32;
+    border-radius: 15px 0 0 15px;
+    padding: 15px 15px 15px 30px;
+    margin: 25px 0 0 0;
+    background-color: transparent;
+}
+
+.domainname{
+    color: white;
+    background-color: #1C2B32;
+    border-radius:0 15px 15px 0;
+    margin: -1px;
+    padding: 15px 15px 15px 25px;
+}
+
+h1 {
+    padding: 50px 0 0 0;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.testimonial-example{
+    border: solid;
+    margin: 5px;
+
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.support-image{
+border-radius: 5px;
+    width: 100%;
+}
+
+.contact{
+background-color: #1C2B32;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    margin: 10px 0 0 0;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+
+details{
+    background-color: #899CA0;
+    border-radius: 15px;
+    color: white;
+    margin: 20px 0 0 0;
+}
+
+summary{
+    color: black;
+    background-color: white;
+}
+
+summary:hover{
+    cursor: pointer;
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
+footer{
+    font-size: 10px;
+}
+
+.footnote{
+    background-color: #1C2B32;
+    width: 100%;
+    color: white;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
